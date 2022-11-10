@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*Header*/
+header {
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2e2e2e;
+}
+
+.text__header {
+  text-align: center;
+  color: #ffff;
+}
+.logotipo {
+  height: 55%;
+  border-radius: 50px;
+  border: solid 1px #ffff;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.menu__item a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+/*Main*/
+main {
+  height: 100vw;
+  background-color: #26a7ff;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.text__principal {
+  padding: 20px;
+}
+
+.text__info {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.foto {
+  width: 300px;
+  border: solid 5px #2e2e2e;
+  border-radius: 100px;
+}
+
+.works {
+  display: flex;
+}
+
+.pic {
+  height: 250px;
+}
+
+/*Footer*/
+footer {
+  background-color: #2e2e2e;
+}
+
+.text__footer {
+  color: #ffff;
+  text-align: center;
+  padding: 10px;
+}
