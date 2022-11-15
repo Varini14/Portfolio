@@ -103,6 +103,24 @@ main {
 .text__secundary {
   text-align: center;
 }
+
+/*Contacto*/
+.contac__title {
+  text-align: center;
+}
+
+.contac {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contac__img {
+  width: 80px;
+}
+
 /*Footer*/
 footer {
   background-color: #2e2e2e;
