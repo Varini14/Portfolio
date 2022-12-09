@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /*Header*/
@@ -48,6 +49,10 @@ header {
 main {
   height: 100vw;
   background-color: #26a7ff;
+}
+
+hr {
+  color: #2e2e2e;
 }
 
 .information {
@@ -134,3 +139,14 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+/*Media Queries*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+} ;

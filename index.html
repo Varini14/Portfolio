@@ -17,23 +17,22 @@
   </head>
   <body>
     <header>
-      <img src="./img/logo.png" alt="logo de varinidev" class="logotipo" />
+      <img src="./img/fabri logo.png" alt="logo de varinidev" class="logotipo" />
       <h1 class="text__header">Hola Bienvenidos a Varini-Dev:</h1>
 
       <nav class="navbar">
         <ul class="menu">
           <li class="menu__item"><a href="./index.html">Inicio</a></li>
-          <li class="menu__item"><a href="">Sobre mi</a></li>
-          <li class="menu__item"><a href="">Proyectos</a></li>
-          <li class="menu__item"><a href="">Contacto</a></li>
+          <li class="menu__item"><a href="index.html#sobremi">Sobre mi</a></li>
+          <li class="menu__item"><a href="index.html#proyectos">Proyectos</a></li>
+          <li class="menu__item"><a href="index.html#contactos">Contacto</a></li>
         </ul>
       </nav>
     </header>
     <main>
       
       <div class="information">
-        <h2>Sobre mi:</h2>
-
+        <h2 id="sobremi">Sobre mi:</h2>
         <p class="text__principal">
           Soy Fabrizio Varini de Ituzaingó Corrientes Argentina y soy Desarrollador Web.
           <br>
@@ -44,7 +43,7 @@
           Realicé el curso de desarrollo
           web de Coder House y actualmente sigo especializandome en el área..
         </p>
-
+        <hr>
         <div class="username">
           <img
             class="foto"
@@ -53,8 +52,9 @@
           />
         </div>
       </div>
+      <hr>
       <div class="works">
-        <h2 class="text__secundary">Proyectos:</h2>
+        <h2 id="proyectos" class="text__secundary">Proyectos:</h2>
         <section class="cards">
           
           <div class="card">
@@ -72,12 +72,17 @@
         </div> 
         </section>
       </div>
+      <hr>
       <div class="contac">
-        <h2 class="contac__title">Contacto:</h2>
+        <h2 id="contactos" class="contac__title">Contacto:</h2>
+
         <div class="contac__links">
-          <a href="" target="_blank"><img  class="contac__img" src ="./img/whatsapp.png" alt="Whatsapp"></a>
-        <a href="varini14f@gmail.com" target="_blank"><img class="contac__img" src="./img/gmail.png" alt="Gmail"></a>
+          <a href="https://api.whatsapp.com/send?phone=+543786615193&text=Bienvenidos a Varini-Dev, en que lo podemos ayudar?" target="_blank"><img  class="contac__img" src ="./img/whatsapp.png" alt="Whatsapp"></a>
+
+        <a href="mailto:varini14f@gmail.com" target="_blank"><img class="contac__img" src="./img/gmail.png" alt="Gmail"></a>
+
         <a href="https://www.linkedin.com/in/fabrizio-varini-820235252/" target="_blank"><img class="contac__img" src="./img/linkedin.png" alt="Linkedin"></a>
+
         <a href="https://github.com/Varini14" target="_blank"><img class="contac__img" src="./img/github.png" alt="GitHub"></a>
         </div>
         
